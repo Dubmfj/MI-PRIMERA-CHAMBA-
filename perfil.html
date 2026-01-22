@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Perfil de usuario en PicksArt: estadísticas, contenido y medallas." />
+    <title>Perfil • PicksArt</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-wrap">
+        <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">★</span>
+            <span class="brand-name">PicksArt</span>
+        </a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Abrir menú" />
+        <label for="menu-toggle" class="menu-btn" aria-controls="primary-nav" aria-expanded="false">☰</label>
+        <nav id="primary-nav" class="nav">
+            <ul class="nav-list">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="perfil.html" class="active">Perfil</a></li>
+            <li><a href="login.html">Entrar</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="profile container">
+        <div class="profile-header">
+            <img src="avatar.png" alt="Avatar" class="avatar" />
+            <div class="profile-info">
+            <h2>@DanielDev</h2>
+            <p>Miembro desde: Ene 2025</p>
+            <div class="stats">
+                <span>🏆 12 medallas</span>
+                <span>📤 34 posts</span>
+                <span>🔥 1.2K votos</span>
+            </div>
+            <!-- Botón de subir dentro del perfil -->
+            <a class="btn primary" href="subir.html">Subir contenido</a>
+            </div>
+        </div>
+
+        <div class="profile-gallery">
+            <h3>Mis publicaciones</h3>
+            <div class="grid">
+            <div class="card">Freestyle de 30s</div>
+            <div class="card">Meme del examen final</div>
+            <div class="card">Sketch de voz</div>
+            <div class="card">Parodia de TikTok</div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+</body>
+</html>
